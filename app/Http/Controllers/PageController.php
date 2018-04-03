@@ -5,9 +5,12 @@ use Validator;
 use Auth;
 use Hash;
 use App\User;
+use App\Foods;
 class PageController extends Controller{
     public function getIndex(){
-        return view('pages.trangchu');
+        $new_food = Foods::where('today',1)->get();
+        // dd($new_food);
+        return view('pages.trangchu',compact('new_food'));
     }
     function getRegister(){
         return view('pages.register');
