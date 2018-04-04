@@ -4,6 +4,9 @@
     .outer-top-bd{
         margin-top:unset;
     }
+    input,label,button{
+        margin: 10px;
+    }
 </style>
 <div class="top-bar animate-dropdown">
 	<div class="container">

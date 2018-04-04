@@ -55,7 +55,9 @@
     </head>
     <!-- For demo purposes – can be removed on production : End -->
 <body>
+		@include('header')
 		@yield('content')
+		@include('footer')
 	<!-- JavaScripts placed at the end of the document so the pages load faster -->
 	<script src="template/assets/js/jquery-1.11.1.min.js"></script>
 	

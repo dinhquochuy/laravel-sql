@@ -6,11 +6,14 @@ use Auth;
 use Hash;
 use App\User;
 use App\Foods;
+use DB;
+use Illuminate\Pagination\Paginator;
 class PageController extends Controller{
     public function getIndex(){
         $new_food = Foods::where('today',1)->get();
-        $allFood =Foods::all(); 
+        //$allFood = Foods::all()->paginate(1);
         // dd($allFood);
+        $allFood = DB::table('foods')->paginate(8);
         return view('pages.trangchu',compact('new_food','allFood'));
     }
     function getRegister(){
@@ -74,6 +77,14 @@ class PageController extends Controller{
         return redirect()->route('dang_nhap')->with([
             'success'=>"Đăng xuất thành công"
         ]);
+    }
+    public function getLoaisp($type){
+        $sp_theoloai = Food::all();
+        return view();
+    }
+    function getSearch(Request $req){
+        $food = DB::table('foods')->where('name','like','%'.$req->key.'%')->orWhere('price',$req->key)->get();
+        return view('pages.search',compact('food'));
     }
  }
 ?>

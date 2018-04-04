@@ -35,3 +35,7 @@ Route::get('logout',[
     'as'=>'dangxuat',
     'uses' => 'PageController@getLogout'
 ]);
+Route::get('search',[
+    'as'=>'search',
+    'uses'=>'PageController@getSearch'
+]);
