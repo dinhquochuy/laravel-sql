@@ -55,7 +55,7 @@
     </head>
     <!-- For demo purposes – can be removed on production : End -->
 <body>
-	@yield('content')
+		@yield('content')
 	<!-- JavaScripts placed at the end of the document so the pages load faster -->
 	<script src="template/assets/js/jquery-1.11.1.min.js"></script>
 	
