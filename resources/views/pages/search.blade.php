@@ -1948,7 +1948,6 @@
 								@foreach($food as $new)
 									<div class="item item-carousel">
 										<div class="products">
-
 											<div class="product">
 												<div class="product-image">
 													<div class="image">

@@ -11,11 +11,11 @@
 				<div class="cnt-account">
 					<ul class="list-unstyled">
 						<li>
-							<a href="#">
+							<a href="{{route('dang_ki')}}">
 								<i class="icon fa fa-user"></i>Đăng Kí</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="{{route('dang_nhap')}}">
 								<i class="icon fa fa-sign-in"></i>Login</a>
 						</li>
 					</ul>
@@ -35,10 +35,8 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 					<div class="logo">
-						<a href="home.html">
-
+						<a href="{{route('trang_chu')}}">
 							<img src="template/assets/images/logo.png" alt="">
-
 						</a>
 					</div>
 					<!-- /.logo -->

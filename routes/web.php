@@ -39,3 +39,7 @@ Route::get('search',[
     'as'=>'search',
     'uses'=>'PageController@getSearch'
 ]);
+Route::get('{id}',[
+    'as'=>'detail',
+    'uses'=>'PageController@getDetailFood'
+]);

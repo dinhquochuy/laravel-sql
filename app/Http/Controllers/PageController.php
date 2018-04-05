@@ -79,12 +79,18 @@ class PageController extends Controller{
         ]);
     }
     public function getLoaisp($type){
-        $sp_theoloai = Food::all();
+        $sp_theoloai = Foods::all();
         return view();
     }
     function getSearch(Request $req){
         $food = DB::table('foods')->where('name','like','%'.$req->key.'%')->orWhere('price',$req->key)->get();
         return view('pages.search',compact('food'));
+    }
+    function getDetailFood($id){
+        $food = Foods::where('id',$id)->first();
+        // dd($food);
+        $sp_tuongtu = Foods::all();
+        return view('pages.detail',compact('food','sp_tuongtu'));
     }
  }
 ?>
