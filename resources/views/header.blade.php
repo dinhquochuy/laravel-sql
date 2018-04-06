@@ -354,215 +354,22 @@
 									</ul>
 								</li>
 								<li class="dropdown yamm">
-									<a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Desktop</a>
+									<a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Danh Sách Sản Phẩm</a>
 									<ul class="dropdown-menu">
+										@foreach($loai_food as $loai)
 										<li>
-											<div class="yamm-content">
-												<div class="row">
-													<div class='col-sm-12'>
-														<div class="col-xs-12 col-sm-12 col-md-4">
-															<h2 class="title">Laptops &amp; Notebooks</h2>
-															<ul class="links">
-																<li>
-																	<a href="#">Power Supplies Power</a>
-																</li>
-																<li>
-																	<a href="#">Power Supply Testers Sound </a>
-																</li>
-																<li>
-																	<a href="#">Sound Cards (Internal)</a>
-																</li>
-																<li>
-																	<a href="#">Video Capture &amp; TV Tuner Cards</a>
-																</li>
-																<li>
-																	<a href="#">Other</a>
-																</li>
-															</ul>
-														</div>
-														<!-- /.col -->
-
-														<div class="col-xs-12 col-sm-12 col-md-4">
-															<h2 class="title">Computers &amp; Laptops</h2>
-															<ul class="links">
-																<li>
-																	<a href="#">Computer Cases &amp; Accessories</a>
-																</li>
-																<li>
-																	<a href="#">CPUs, Processors</a>
-																</li>
-																<li>
-																	<a href="#">Fans, Heatsinks &amp; Cooling</a>
-																</li>
-																<li>
-																	<a href="#">Graphics, Video Cards</a>
-																</li>
-																<li>
-																	<a href="#">Interface, Add-On Cards</a>
-																</li>
-																<li>
-																	<a href="#">Laptop Replacement Parts</a>
-																</li>
-																<li>
-																	<a href="#">Memory (RAM)</a>
-																</li>
-																<li>
-																	<a href="#">Motherboards</a>
-																</li>
-																<li>
-																	<a href="#">Motherboard &amp; CPU Combos</a>
-																</li>
-																<li>
-																	<a href="#">Motherboard Components &amp; Accs</a>
-																</li>
-															</ul>
-														</div>
-														<!-- /.col -->
-
-														<div class="col-xs-12 col-sm-12 col-md-4">
-															<h2 class="title">Dekstop Parts</h2>
-															<ul class="links">
-																<li>
-																	<a href="#">Power Supplies Power</a>
-																</li>
-																<li>
-																	<a href="#">Power Supply Testers Sound</a>
-																</li>
-																<li>
-																	<a href="#">Sound Cards (Internal)</a>
-																</li>
-																<li>
-																	<a href="#">Video Capture &amp; TV Tuner Cards</a>
-																</li>
-																<li>
-																	<a href="#">Other</a>
-																</li>
-															</ul>
-														</div>
-														<!-- /.col -->
-													</div>
-												</div>
-												<!-- /.row -->
-											</div>
-											<!-- /.yamm-content -->
+											<a href="{{route('typefood',$loai->id)}}">{{$loai->name}}</a>
 										</li>
+										
+										@endforeach
 									</ul>
 								</li>
-
 								<li class="dropdown">
-
-									<a href="category.html">Electronics
-										<span class="menu-label hot-menu hidden-xs">hot</span>
-									</a>
+									<a href="{{route('info')}}">Info</a>
 								</li>
-								<li class="dropdown hidden-sm">
-
-									<a href="category.html">Television
-										<span class="menu-label new-menu hidden-xs">new</span>
-									</a>
+								<li class="dropdown">	
+									<a href="{{route('contact')}}">Contact</a>
 								</li>
-
-								<li class="dropdown hidden-sm">
-									<a href="category.html">Smart Phone</a>
-								</li>
-
-								<li class="dropdown">
-									<a href="contact.html">Contact</a>
-								</li>
-
-								<li class="dropdown navbar-right">
-									<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Pages</a>
-									<ul class="dropdown-menu pages">
-										<li>
-											<div class="yamm-content">
-												<div class="row">
-
-													<div class='col-xs-12 col-sm-4 col-md-4'>
-														<ul class='links'>
-															<li>
-																<a href="home.html">Home I</a>
-															</li>
-															<li>
-																<a href="home2.html">Home II</a>
-															</li>
-															<li>
-																<a href="category.html">Category</a>
-															</li>
-															<li>
-																<a href="category-2.html">Category II</a>
-															</li>
-															<li>
-																<a href="detail.html">Detail</a>
-															</li>
-															<li>
-																<a href="detail2.html">Detail II</a>
-															</li>
-															<li>
-																<a href="shopping-cart.html">Shopping Cart Summary</a>
-															</li>
-
-														</ul>
-													</div>
-													<div class='col-xs-12 col-sm-4 col-md-4'>
-														<ul class='links'>
-															<li>
-																<a href="checkout.html">Checkout</a>
-															</li>
-															<li>
-																<a href="blog.html">Blog</a>
-															</li>
-															<li>
-																<a href="blog-details.html">Blog Detail</a>
-															</li>
-															<li>
-																<a href="contact.html">Contact</a>
-															</li>
-															<li>
-																<a href="homepage1.html">Homepage 1</a>
-															</li>
-															<li>
-																<a href="homepage2.html">Homepage 2</a>
-															</li>
-															<li>
-																<a href="home-furniture.html">Home Furniture</a>
-															</li>
-														</ul>
-													</div>
-													<div class='col-xs-12 col-sm-4 col-md-4'>
-														<ul class='links'>
-															<li>
-																<a href="sign-in.html">Sign In</a>
-															</li>
-															<li>
-																<a href="my-wishlist.html">Wishlist</a>
-															</li>
-															<li>
-																<a href="terms-conditions.html">Terms and Condition</a>
-															</li>
-															<li>
-																<a href="track-orders.html">Track Orders</a>
-															</li>
-															<li>
-																<a href="product-comparison.html">Product-Comparison</a>
-															</li>
-															<li>
-																<a href="faq.html">FAQ</a>
-															</li>
-															<li>
-																<a href="404.html">404</a>
-															</li>
-														</ul>
-
-													</div>
-
-												</div>
-											</div>
-										</li>
-
-
-									</ul>
-								</li>
-
 							</ul>
 							<!-- /.navbar-nav -->
 							<div class="clearfix"></div>

@@ -43,7 +43,7 @@ Route::get('chi-tiet-san-pham/{id}',[
     'as'=>'detail',
     'uses'=>'PageController@getDetailFood'
 ]);
-Route::get('typefood',[
+Route::get('loai-san-pham/{$type}',[
     'as'=>'typefood',
     'uses'=>'PageController@getTypeFood'
 ]); 
@@ -62,4 +62,8 @@ Route::get('dat-hang',[
 Route::get('info',[
     'as'=>'info',
     'uses'=>'PageController@getInfo'
+]);
+Route::get('contact',[
+    'as' =>'contact',
+    'uses'=>'PageController@getContact'
 ]);

@@ -86,7 +86,10 @@ class PageController extends Controller{
     }
     public function getTypeFood($type){
         $sp_theoloai = Foods::where('id_type',$type)->get();
-        return view('pages.typefood',compact('sp_theoloai'));
+        $sp_khac = Foods::where('id_type','<>',$type)->paginate(3);
+        $loai = FoodsType::all();
+        $loap_sp = FoodType::where('id',$type)->first();
+    	return view('pages.typefood',compact('sp_theoloai','sp_khac','loai','loap_sp'));
     }
     function getDetailFood($id){
         $food = Foods::where('id',$id)->first();
@@ -122,6 +125,9 @@ class PageController extends Controller{
     }
     function getInfo(){
         return view('pages.info');
+    }
+    function getContact(){
+        return view('pages.contact');
     }
  }
 ?>

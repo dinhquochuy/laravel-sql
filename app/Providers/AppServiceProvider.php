@@ -22,6 +22,10 @@ class AppServiceProvider extends ServiceProvider
                 $view->with(['cart'=>Session::get('cart'), 'product_cart'=>$cart->items,'totalPrice'=>$cart->totalPrice,'totalQty'=>$cart->totalQty]);
             }
         });
+             view()->composer('header',function($veu){
+            $loai_food = FoodType::all();
+            $veu->with('loai_food',$loai_food);
+        });
 
     }
 
