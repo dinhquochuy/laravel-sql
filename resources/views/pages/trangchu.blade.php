@@ -1,3476 +1,686 @@
 @extends('index')
 @section('content')
-<div class="body-content outer-top-xs" id="top-banner-and-menu">
-	<div class="container">
-		<div class="row">
-			<!-- ============================================== SIDEBAR ============================================== -->
-			<div class="col-xs-12 col-sm-12 col-md-3 sidebar">
+<div class="body-content outer-top-xs">
+    <div class='container'>
+        <div class='row outer-bottom-sm'>
+            <div class='col-md-3 sidebar'>
+                <!-- ================================== TOP NAVIGATION : END ================================== -->
+                <div class="sidebar-module-container">
+                    <h3 class="section-title">shop by</h3>
+                    <div class="sidebar-filter">
+                        <!-- ============================================== SIDEBAR CATEGORY ============================================== -->
+                        <div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
+                            <div class="widget-header m-t-20">
+                                <h4 class="widget-title">Category</h4>
+                            </div>
+                            <div class="sidebar-widget-body m-t-10">
+                                <div class="accordion">
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseOne" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Camera
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseOne" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseTwo" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Desktops
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseTwo" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseThree" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Pants
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseThree" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseFour" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Bags
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseFour" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseFive" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Hats
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseFive" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading">
+                                            <a href="#collapseSix" data-toggle="collapse" class="accordion-toggle collapsed">
+                                                Accessories
+                                            </a>
+                                        </div>
+                                        <!-- /.accordion-heading -->
+                                        <div class="accordion-body collapse" id="collapseSix" style="height: 0px;">
+                                            <div class="accordion-inner">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">gaming</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">office</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">kids</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">for women</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.accordion-inner -->
+                                        </div>
+                                        <!-- /.accordion-body -->
+                                    </div>
+                                    <!-- /.accordion-group -->
+
+                                </div>
+                                <!-- /.accordion -->
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== SIDEBAR CATEGORY : END ============================================== -->
+                        <!-- ============================================== PRICE SILDER============================================== -->
+                        <div class="sidebar-widget outer-bottom-xs wow fadeInUp">
+                            <div class="widget-header">
+                                <h4 class="widget-title">Price Slider</h4>
+                            </div>
+                            <div class="sidebar-widget-body m-t-20">
+                                <div class="price-range-holder">
+                                    <span class="min-max">
+                                        <span class="pull-left">$200.00</span>
+                                        <span class="pull-right">$800.00</span>
+                                    </span>
+                                    <input type="text" id="amount" style="border:0; color:#666666; font-weight:bold;text-align:center;">
+
+                                    <input type="text" class="price-slider" value="">
+
+                                </div>
+                                <!-- /.price-range-holder -->
+                                <a href="#" class="lnk btn btn-primary">Show Now</a>
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== PRICE SILDER : END ============================================== -->
+                        <!-- ============================================== MANUFACTURES============================================== -->
+                        <div class="sidebar-widget outer-bottom-xs wow fadeInUp">
+                            <div class="widget-header">
+                                <h4 class="widget-title">Manufactures</h4>
+                            </div>
+                            <div class="sidebar-widget-body m-t-10">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">Forever 18</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nike</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dolce & Gabbana</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Alluare</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chanel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other Brand</a>
+                                    </li>
+                                </ul>
+                                <!--<a href="#" class="lnk btn btn-primary">Show Now</a>-->
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== MANUFACTURES: END ============================================== -->
+                        <!-- ============================================== COLOR============================================== -->
+                        <div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
+                            <div class="widget-header">
+                                <h4 class="widget-title">Colors</h4>
+                            </div>
+                            <div class="sidebar-widget-body m-t-10">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">Red</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blue</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Yellow</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pink</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Brown</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Teal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== COLOR: END ============================================== -->
+                        <!-- ============================================== COMPARE============================================== -->
+                        <div class="sidebar-widget wow fadeInUp">
+                            <h3 class="section-title">Compare products</h3>
+                            <div class="sidebar-widget-body">
+                                <div class="compare-report">
+                                    <p>You have no
+                                        <span>item(s)</span> to compare</p>
+                                </div>
+                                <!-- /.compare-report -->
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== COMPARE: END ============================================== -->
+                        <!-- ============================================== PRODUCT TAGS ============================================== -->
+                        <div class="sidebar-widget product-tag wow fadeInUp">
+                            <h3 class="section-title">Product tags</h3>
+                            <div class="sidebar-widget-body outer-top-xs">
+                                <div class="tag-list">
+                                    <a class="item" title="Phone" href="category.html">Phone</a>
+                                    <a class="item active" title="Vest" href="category.html">Vest</a>
+                                    <a class="item" title="Smartphone" href="category.html">Smartphone</a>
+                                    <a class="item" title="Furniture" href="category.html">Furniture</a>
+                                    <a class="item" title="T-shirt" href="category.html">T-shirt</a>
+                                    <a class="item" title="Sweatpants" href="category.html">Sweatpants</a>
+                                    <a class="item" title="Sneaker" href="category.html">Sneaker</a>
+                                    <a class="item" title="Toys" href="category.html">Toys</a>
+                                    <a class="item" title="Rose" href="category.html">Rose</a>
+                                </div>
+                                <!-- /.tag-list -->
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== PRODUCT TAGS : END ============================================== -->
+                        <!-- ============================================== COLOR============================================== -->
+                        <div class="sidebar-widget  wow fadeInUp outer-top-vs ">
+                            <div id="advertisement" class="advertisement">
+                                <div class="item bg-color">
+                                    <div class="container-fluid">
+                                        <div class="caption vertical-top text-left">
+                                            <div class="big-text">
+                                                Save
+                                                <span class="big">50%</span>
+                                            </div>
+
+
+                                            <div class="excerpt">
+                                                on selected items
+                                            </div>
+                                        </div>
+                                        <!-- /.caption -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item" style="background-image: url('template/assets/images/advertisement/1.jpg');">
+
+                                </div>
+                                <!-- /.item -->
+
+                                <div class="item bg-color">
+                                    <div class="container-fluid">
+                                        <div class="caption vertical-top text-left">
+                                            <div class="big-text">
+                                                Save
+                                                <span class="big">50%</span>
+                                            </div>
+
+
+                                            <div class="excerpt fadeInDown-2">
+                                                on selected items
+                                            </div>
+                                        </div>
+                                        <!-- /.caption -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </div>
+                                <!-- /.item -->
+
+                            </div>
+                            <!-- /.owl-carousel -->
+                        </div>
+
+                        <!-- ============================================== COLOR: END ============================================== -->
+
+                    </div>
+                    <!-- /.sidebar-filter -->
+                </div>
+                <!-- /.sidebar-module-container -->
+            </div>
+            <!-- /.sidebar -->
+            <div class='col-md-9'>
+                <!-- ========================================== SECTION – HERO ========================================= -->
+                <!-- ========================================= SECTION – HERO : END ========================================= -->
+                <div class="clearfix filters-container m-t-10">
+                    <div class="row">
+                        <div class="col col-sm-6 col-md-2">
+                            <div class="filter-tabs">
+                                <ul id="filter-tabs" class="nav nav-tabs nav-tab-box nav-tab-fa-icon">
+                                    <li class="active">
+                                        <a data-toggle="tab" href="#grid-container">
+                                            <i class="icon fa fa-th-list"></i>Grid</a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#list-container">
+                                            <i class="icon fa fa-th"></i>List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.filter-tabs -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col col-sm-12 col-md-6">
+                            <div class="col col-sm-3 col-md-6 no-padding">
+                                <div class="lbl-cnt">
+                                    <span class="lbl">Sort by</span>
+                                    <div class="fld inline">
+                                        <div class="dropdown dropdown-small dropdown-med dropdown-white inline">
+                                            <button data-toggle="dropdown" type="button" class="btn dropdown-toggle">
+                                                Position
+                                                <span class="caret"></span>
+                                            </button>
+
+                                            <ul role="menu" class="dropdown-menu">
+                                                <li role="presentation">
+                                                    <a href="#">position</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">Price:Lowest first</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">Price:HIghest first</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">Product Name:A to Z</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.fld -->
+                                </div>
+                                <!-- /.lbl-cnt -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col col-sm-3 col-md-6 no-padding">
+                                <div class="lbl-cnt">
+                                    <span class="lbl">Show</span>
+                                    <div class="fld inline">
+                                        <div class="dropdown dropdown-small dropdown-med dropdown-white inline">
+                                            <button data-toggle="dropdown" type="button" class="btn dropdown-toggle">
+                                                1
+                                                <span class="caret"></span>
+                                            </button>
+
+                                            <ul role="menu" class="dropdown-menu">
+                                                <li role="presentation">
+                                                    <a href="#">1</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">2</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">3</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">4</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">5</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">6</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">7</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">8</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">9</a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a href="#">10</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.fld -->
+                                </div>
+                                <!-- /.lbl-cnt -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="search-result-container">
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active " id="grid-container">
+                            <div class="category-product  inner-top-vs">
+                                <div class="row">
+                                    @foreach($allFood as $all)
+                                        <div class="col-sm-6 col-md-4 wow fadeInUp">
+                                            <div class="products">
+
+                                                <div class="product">
+                                                    <div class="product-image">
+                                                        <div class="image">
+                                                            <a href="{{route('detail',$all->id)}}">
+                                                                <img src="template/assets/images/hinh_mon_an/{{$all->image}}" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.image -->
+
+                                                        <div class="tag new">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.product-image -->
+
+
+                                                    <div class="product-info text-left">
+                                                        <h3 class="name">
+                                                        <a href="{{route('detail',$all->id)}}">{{$all->name}}</a>
+                                                        </h3>
+                                                        <div class="rating rateit-small"></div>
+                                                        <div class="description"></div>
+
+                                                        <div class="product-price">
+                                                            @if($all->promotion_price==0)
+                                                                <span class="price">
+                                                                        {{number_format($all->price)}} 
+                                                                </span>
+                                                            @else
+                                                                <span class="price">
+                                                                        {{number_format($all->price)}} 
+                                                                </span>
+                                                                <span class="price-before-discount">{{$all->promotion_price}}</span>
+                                                            @endif
+                                                        </div>
+                                                        <!-- /.product-price -->
+
+                                                    </div>
+                                                    <!-- /.product-info -->
+                                                    <div class="cart clearfix animate-effect">
+                                                        <div class="action">
+                                                            <ul class="list-unstyled">
+                                                                <li class="add-cart-button btn-group">
+                                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+                                                                        <i class="fa fa-shopping-cart"></i>
+                                                                    </button>
+                                                                    <button class="btn btn-primary" type="button">Add to cart</button>
+
+                                                                </li>
+
+                                                                <li class="lnk wishlist">
+                                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
+                                                                        <i class="icon fa fa-heart"></i>
+                                                                    </a>
+                                                                </li>
+
+                                                                <li class="lnk">
+                                                                    <a class="add-to-cart" href="detail.html" title="Compare">
+                                                                        <i class="fa fa-retweet"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- /.action -->
+                                                    </div>
+                                                    <!-- /.cart -->
+                                                </div>
+                                                <!-- /.product -->
+
+                                            </div>
+                                            <!-- /.products -->
+                                        </div>
+                                        <!-- /.item -->
+                                    @endforeach
+                                </div>
+                                <div class="row">
+                                    {{$allFood->links()}}
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.category-product -->
+                        </div>
+                        <!-- /.tab-pane -->
+
+                        <div class="tab-pane " id="list-container">
+                            <div class="category-product  inner-top-vs">
+                                @foreach($allFood as $all)
+                                    <div class="category-product-inner wow fadeInUp">
+                                        <div class="products">
+                                            <div class="product-list product">
+                                                <div class="row product-list-row">
+                                                    <div class="col col-sm-4 col-lg-4">
+                                                        <div class="product-image">
+                                                            <div class="image">
+                                                                <img src="template/assets/images/hinh_mon_an/{{$all->image}}" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-image -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                    <div class="col col-sm-8 col-lg-8">
+                                                        <div class="product-info">
+                                                            <h3 class="name">
+                                                             <a href="{{route('detail',$all->id)}}">{{$all->name}}</a>
+                                                            </h3>
+                                                            <div class="rating rateit-small"></div>
+                                                            <div class="product-price">
+                                                                    @if($all->promotion_price==0)
+                                                                    <span class="price">
+                                                                            {{$all->price}} 
+                                                                    </span>
+                                                                @else
+                                                                    <span class="price">
+                                                                            {{$all->price}} 
+                                                                    </span>
+                                                                    <span class="price-before-discount">{{$all->promotion_price}}</span>
+                                                                @endif
+                                                            </div>
+                                                            <!-- /.product-price -->
+                                                            <div class="description m-t-10">{{$all->detail}}</div>
+                                                            <div class="cart clearfix animate-effect">
+                                                                <div class="action">
+                                                                    <ul class="list-unstyled">
+                                                                        <li class="add-cart-button btn-group">
+                                                                            <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+                                                                                <i class="fa fa-shopping-cart"></i>
+                                                                            </button>
+                                                                            <button class="btn btn-primary" type="button">Add to cart</button>
+
+                                                                        </li>
+
+                                                                        <li class="lnk wishlist">
+                                                                            <a class="add-to-cart" href="detail.html" title="Wishlist">
+                                                                                <i class="icon fa fa-heart"></i>
+                                                                            </a>
+                                                                        </li>
+
+                                                                        <li class="lnk">
+                                                                            <a class="add-to-cart" href="detail.html" title="Compare">
+                                                                                <i class="fa fa-retweet"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <!-- /.action -->
+                                                            </div>
+                                                            <!-- /.cart -->
+
+                                                        </div>
+                                                        <!-- /.product-info -->
+                                                    </div>
+                                                    <!-- /.col -->
+                                                </div>
+                                                <!-- /.product-list-row -->
+                                                <div class="tag new">
+                                                    <span>new</span>
+                                                </div>
+                                            </div>
+                                            <!-- /.product-list -->
+                                        </div>
+                                        <!-- /.products -->
+                                    </div>
+                                @endforeach
+                                <div class="row">
+                                    {{$allFood->links()}}
+                                </div>
+                                <!-- /.category-product-inner -->
+                            </div>
+                            <!-- /.category-product -->
+                        </div>
+                        <!-- /.tab-pane #list-container -->
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+                <!-- /.search-result-container -->
+
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
 
-				<!-- ================================== TOP NAVIGATION ================================== -->
-				<div class="side-menu animate-dropdown outer-bottom-xs">
-					<div class="head">
-						<i class="icon fa fa-align-justify fa-fw"></i> Categories</div>
-					<nav class="yamm megamenu-horizontal" role="navigation">
-						<ul class="nav">
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-desktop fa-fw"></i>Computer</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-mobile fa-fw"></i>Smart Phone</a>
-								<!-- ================================== MEGAMENU VERTICAL ================================== -->
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-xs-12 col-sm-12 col-lg-4">
-												<ul>
-													<li>
-														<a href="#">Computer Cases &amp; Accessories</a>
-													</li>
-													<li>
-														<a href="#">CPUs, Processors</a>
-													</li>
-													<li>
-														<a href="#">Fans, Heatsinks &amp; Cooling</a>
-													</li>
-													<li>
-														<a href="#">Graphics, Video Cards</a>
-													</li>
-													<li>
-														<a href="#">Interface, Add-On Cards</a>
-													</li>
-													<li>
-														<a href="#">Laptop Replacement Parts</a>
-													</li>
-													<li>
-														<a href="#">Memory (RAM)</a>
-													</li>
-													<li>
-														<a href="#">Motherboards</a>
-													</li>
-													<li>
-														<a href="#">Motherboard &amp; CPU Combos</a>
-													</li>
-													<li>
-														<a href="#">Motherboard Components &amp; Accs</a>
-													</li>
-												</ul>
-											</div>
-
-											<div class="col-xs-12 col-sm-12 col-lg-4">
-												<ul>
-													<li>
-														<a href="#">Power Supplies Power</a>
-													</li>
-													<li>
-														<a href="#">Power Supply Testers Sound</a>
-													</li>
-													<li>
-														<a href="#">Sound Cards (Internal)</a>
-													</li>
-													<li>
-														<a href="#">Video Capture &amp; TV Tuner Cards</a>
-													</li>
-													<li>
-														<a href="#">Other</a>
-													</li>
-												</ul>
-											</div>
-
-											<div class="dropdown-banner-holder">
-												<a href="#">
-													<img alt="" src="template/assets/images/banners/banner-side.png" />
-												</a>
-											</div>
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-								<!-- ================================== MEGAMENU VERTICAL ================================== -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-apple fa-fw"></i>Apple Store</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-camera fa-fw"></i>Camera</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-headphones fa-fw"></i>TV & Audio</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-gamepad fa-fw"></i>Game & Video</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-location-arrow fa-fw"></i>Car Electronic</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-history fa-fw"></i>Old Products</a>
-								<!-- ================================== MEGAMENU VERTICAL ================================== -->
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-xs-12 col-sm-12 col-lg-4">
-												<ul>
-													<li>
-														<a href="#">Computer Cases &amp; Accessories</a>
-													</li>
-													<li>
-														<a href="#">CPUs, Processors</a>
-													</li>
-													<li>
-														<a href="#">Fans, Heatsinks &amp; Cooling</a>
-													</li>
-													<li>
-														<a href="#">Graphics, Video Cards</a>
-													</li>
-													<li>
-														<a href="#">Interface, Add-On Cards</a>
-													</li>
-													<li>
-														<a href="#">Laptop Replacement Parts</a>
-													</li>
-													<li>
-														<a href="#">Memory (RAM)</a>
-													</li>
-													<li>
-														<a href="#">Motherboards</a>
-													</li>
-													<li>
-														<a href="#">Motherboard &amp; CPU Combos</a>
-													</li>
-													<li>
-														<a href="#">Motherboard Components &amp; Accs</a>
-													</li>
-												</ul>
-											</div>
-
-											<div class="col-xs-12 col-sm-12 col-lg-4">
-												<ul>
-													<li>
-														<a href="#">Power Supplies Power</a>
-													</li>
-													<li>
-														<a href="#">Power Supply Testers Sound</a>
-													</li>
-													<li>
-														<a href="#">Sound Cards (Internal)</a>
-													</li>
-													<li>
-														<a href="#">Video Capture &amp; TV Tuner Cards</a>
-													</li>
-													<li>
-														<a href="#">Other</a>
-													</li>
-												</ul>
-											</div>
-
-											<div class="dropdown-banner-holder">
-												<a href="#">
-													<img alt="" src="template/assets/images/banners/banner-side.png" />
-												</a>
-											</div>
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-								<!-- ================================== MEGAMENU VERTICAL ================================== -->
-							</li>
-							<!-- /.menu-item -->
-
-							<li class="dropdown menu-item">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									<i class="icon fa fa-microphone fa-fw"></i>Accessories</a>
-								<ul class="dropdown-menu mega-menu">
-									<li class="yamm-content">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Lenovo</a>
-													</li>
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Fuhlen</a>
-													</li>
-													<li>
-														<a href="category.html">Longsleeves</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Polos</a>
-													</li>
-													<li>
-														<a href="category.html">Sweaters</a>
-													</li>
-													<li>
-														<a href="category.html">Shirts</a>
-													</li>
-													<li>
-														<a href="category.html">Hoodies</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-											<div class="col-sm-12 col-md-3">
-												<ul class="links list-unstyled">
-													<li>
-														<a href="category.html">Microsoft</a>
-													</li>
-													<li>
-														<a href="category.html">Apple</a>
-													</li>
-													<li>
-														<a href="category.html">Tees & Tanks</a>
-													</li>
-													<li>
-														<a href="category.html">Graphic Tees</a>
-													</li>
-												</ul>
-											</div>
-											<!-- /.col -->
-										</div>
-										<!-- /.row -->
-									</li>
-									<!-- /.yamm-content -->
-								</ul>
-								<!-- /.dropdown-menu -->
-							</li>
-							<!-- /.menu-item -->
-
-						</ul>
-						<!-- /.nav -->
-					</nav>
-					<!-- /.megamenu-horizontal -->
-				</div>
-				<!-- /.side-menu -->
-				<!-- ================================== TOP NAVIGATION : END ================================== -->
-				<!-- ============================================== SPECIAL OFFER ============================================== -->
-
-				<div class="sidebar-widget outer-bottom-small wow fadeInUp">
-					<h3 class="section-title">Special Offer</h3>
-					<div class="sidebar-widget-body outer-top-xs">
-						<div class="owl-carousel sidebar-carousel special-offer custom-carousel owl-theme outer-top-xs">
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm1.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm1.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-														<div class="tag tag-micro hot">
-															<span>hot</span>
-														</div>
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Simple Product</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm2.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm2.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Canon EOS 60D</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm3.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm3.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-														<div class="tag tag-micro new">
-															<span>new</span>
-														</div>
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Camera X30</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm1.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm1.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Simple Product</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm2.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm2.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-														<div class="tag tag-micro sale">
-															<span>sale</span>
-														</div>
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Canon EOS 60D</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm3.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm3.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Camera X30</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm1.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm1.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-														<div class="tag tag-micro new">
-															<span>new</span>
-														</div>
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Simple Product</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm2.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm2.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-														<div class="tag tag-micro hot">
-															<span>hot</span>
-														</div>
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Canon EOS 60D</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm3.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm3.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Camera X30</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /.sidebar-widget-body -->
-				</div>
-				<!-- /.sidebar-widget -->
-				<!-- ============================================== SPECIAL OFFER : END ============================================== -->
-				<!-- ============================================== PRODUCT TAGS ============================================== -->
-				<div class="sidebar-widget product-tag wow fadeInUp">
-					<h3 class="section-title">Product tags</h3>
-					<div class="sidebar-widget-body outer-top-xs">
-						<div class="tag-list">
-							<a class="item" title="Phone" href="category.html">Phone</a>
-							<a class="item active" title="Vest" href="category.html">Vest</a>
-							<a class="item" title="Smartphone" href="category.html">Smartphone</a>
-							<a class="item" title="Furniture" href="category.html">Furniture</a>
-							<a class="item" title="T-shirt" href="category.html">T-shirt</a>
-							<a class="item" title="Sweatpants" href="category.html">Sweatpants</a>
-							<a class="item" title="Sneaker" href="category.html">Sneaker</a>
-							<a class="item" title="Toys" href="category.html">Toys</a>
-							<a class="item" title="Rose" href="category.html">Rose</a>
-						</div>
-						<!-- /.tag-list -->
-					</div>
-					<!-- /.sidebar-widget-body -->
-				</div>
-				<!-- /.sidebar-widget -->
-				<!-- ============================================== PRODUCT TAGS : END ============================================== -->
-				<!-- ============================================== SPECIAL DEALS ============================================== -->
-
-				<div class="sidebar-widget outer-bottom-small wow fadeInUp">
-					<h3 class="section-title">Special Deals</h3>
-					<div class="sidebar-widget-body outer-top-xs">
-						<div class="owl-carousel sidebar-carousel special-offer custom-carousel owl-theme outer-top-xs">
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm4.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm4.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-														<div class="tag tag-micro hot">
-															<span>hot</span>
-														</div>
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Simple Product</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm5.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm5.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Simple Product</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm6.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm6.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-														<div class="tag tag-micro new">
-															<span>new</span>
-														</div>
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Camera X30</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm1.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm1.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm2.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm2.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-														<div class="tag tag-micro sale">
-															<span>sale</span>
-														</div>
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm3.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm3.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="products special-product">
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm5.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm5.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-														<div class="tag tag-micro new">
-															<span>new</span>
-														</div>
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm2.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm2.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-														<div class="tag tag-micro hot">
-															<span>hot</span>
-														</div>
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-									<div class="product">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-5">
-													<div class="product-image">
-														<div class="image">
-															<a href="template/assets/images/products/sm1.jpg" data-lightbox="image-1" data-title="Nunc ullamcors">
-																<img data-echo="template/assets/images/products/sm1.jpg" src="template/assets/images/blank.gif" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-
-
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-7">
-													<div class="product-info">
-														<h3 class="name">
-															<a href="#">Sony Ericson Vaga</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																$650.99 </span>
-
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /.sidebar-widget-body -->
-				</div>
-				<!-- /.sidebar-widget -->
-				<!-- ============================================== SPECIAL DEALS : END ============================================== -->
-				<!-- ============================================== NEWSLETTER ============================================== -->
-				<div class="sidebar-widget newsletter wow fadeInUp outer-bottom-small">
-					<h3 class="section-title">Newsletters</h3>
-					<div class="sidebar-widget-body outer-top-xs">
-						<p>Sign Up for Our Newsletter!</p>
-						<form role="form">
-							<div class="form-group">
-								<label class="sr-only" for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Subscribe to our newsletter">
-							</div>
-							<button class="btn btn-primary">Subscribe</button>
-						</form>
-					</div>
-					<!-- /.sidebar-widget-body -->
-				</div>
-				<!-- /.sidebar-widget -->
-				<!-- ============================================== NEWSLETTER: END ============================================== -->
-				<!-- ============================================== HOT DEALS ============================================== -->
-				<div class="sidebar-widget hot-deals wow fadeInUp">
-					<h3 class="section-title">hot deals</h3>
-					<div class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-xs">
-
-						<div class="item">
-							<div class="products">
-								<div class="hot-deal-wrapper">
-									<div class="image">
-										<img src="template/assets/images/hot-deals/1.jpg" alt="">
-									</div>
-									<div class="sale-offer-tag">
-										<span>35%
-											<br>off</span>
-									</div>
-									<div class="timing-wrapper">
-										<div class="box-wrapper">
-											<div class="date box">
-												<span class="key">120</span>
-												<span class="value">Days</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="hour box">
-												<span class="key">20</span>
-												<span class="value">HRS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="minutes box">
-												<span class="key">36</span>
-												<span class="value">MINS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper hidden-md">
-											<div class="seconds box">
-												<span class="key">60</span>
-												<span class="value">SEC</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /.hot-deal-wrapper -->
-
-								<div class="product-info text-left m-t-20">
-									<h3 class="name">
-										<a href="detail.html">Apple Iphone 5s 32GB Gold</a>
-									</h3>
-									<div class="rating rateit-small"></div>
-
-									<div class="product-price">
-										<span class="price">
-											$600.00
-										</span>
-
-										<span class="price-before-discount">$800.00</span>
-
-									</div>
-									<!-- /.product-price -->
-
-								</div>
-								<!-- /.product-info -->
-
-								<div class="cart clearfix animate-effect">
-									<div class="action">
-
-										<div class="add-cart-button btn-group">
-											<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-												<i class="fa fa-shopping-cart"></i>
-											</button>
-											<button class="btn btn-primary" type="button">Add to cart</button>
-
-										</div>
-
-									</div>
-									<!-- /.action -->
-								</div>
-								<!-- /.cart -->
-							</div>
-						</div>
-						<div class="item">
-							<div class="products">
-								<div class="hot-deal-wrapper">
-									<div class="image">
-										<img src="template/assets/images/hot-deals/2.jpg" alt="">
-									</div>
-									<div class="sale-offer-tag">
-										<span>35%
-											<br>off</span>
-									</div>
-									<div class="timing-wrapper">
-										<div class="box-wrapper">
-											<div class="date box">
-												<span class="key">120</span>
-												<span class="value">Days</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="hour box">
-												<span class="key">20</span>
-												<span class="value">HRS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="minutes box">
-												<span class="key">36</span>
-												<span class="value">MINS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper hidden-md">
-											<div class="seconds box">
-												<span class="key">60</span>
-												<span class="value">SEC</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /.hot-deal-wrapper -->
-
-								<div class="product-info text-left m-t-20">
-									<h3 class="name">
-										<a href="detail.html">Apple Iphone 5s 32GB Gold</a>
-									</h3>
-									<div class="rating rateit-small"></div>
-
-									<div class="product-price">
-										<span class="price">
-											$600.00
-										</span>
-
-										<span class="price-before-discount">$800.00</span>
-
-									</div>
-									<!-- /.product-price -->
-
-								</div>
-								<!-- /.product-info -->
-
-								<div class="cart clearfix animate-effect">
-									<div class="action">
-
-										<div class="add-cart-button btn-group">
-											<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-												<i class="fa fa-shopping-cart"></i>
-											</button>
-											<button class="btn btn-primary" type="button">Add to cart</button>
-
-										</div>
-
-									</div>
-									<!-- /.action -->
-								</div>
-								<!-- /.cart -->
-							</div>
-						</div>
-						<div class="item">
-							<div class="products">
-								<div class="hot-deal-wrapper">
-									<div class="image">
-										<img src="template/assets/images/hot-deals/3.jpg" alt="">
-									</div>
-									<div class="sale-offer-tag">
-										<span>35%
-											<br>off</span>
-									</div>
-									<div class="timing-wrapper">
-										<div class="box-wrapper">
-											<div class="date box">
-												<span class="key">120</span>
-												<span class="value">Days</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="hour box">
-												<span class="key">20</span>
-												<span class="value">HRS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper">
-											<div class="minutes box">
-												<span class="key">36</span>
-												<span class="value">MINS</span>
-											</div>
-										</div>
-
-										<div class="box-wrapper hidden-md">
-											<div class="seconds box">
-												<span class="key">60</span>
-												<span class="value">SEC</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- /.hot-deal-wrapper -->
-
-								<div class="product-info text-left m-t-20">
-									<h3 class="name">
-										<a href="detail.html">Apple Iphone 5s 32GB Gold</a>
-									</h3>
-									<div class="rating rateit-small"></div>
-
-									<div class="product-price">
-										<span class="price">
-											$600.00
-										</span>
-
-										<span class="price-before-discount">$800.00</span>
-
-									</div>
-									<!-- /.product-price -->
-
-								</div>
-								<!-- /.product-info -->
-
-								<div class="cart clearfix animate-effect">
-									<div class="action">
-
-										<div class="add-cart-button btn-group">
-											<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-												<i class="fa fa-shopping-cart"></i>
-											</button>
-											<button class="btn btn-primary" type="button">Add to cart</button>
-
-										</div>
-
-									</div>
-									<!-- /.action -->
-								</div>
-								<!-- /.cart -->
-							</div>
-						</div>
-
-
-					</div>
-					<!-- /.sidebar-widget -->
-				</div>
-				<!-- ============================================== HOT DEALS: END ============================================== -->
-				<!-- ============================================== COLOR============================================== -->
-				<div class="sidebar-widget  wow fadeInUp outer-top-vs ">
-					<div id="advertisement" class="advertisement">
-						<div class="item bg-color">
-							<div class="container-fluid">
-								<div class="caption vertical-top text-left">
-									<div class="big-text">
-										Save
-										<span class="big">50%</span>
-									</div>
-
-
-									<div class="excerpt">
-										on selected items
-									</div>
-								</div>
-								<!-- /.caption -->
-							</div>
-							<!-- /.container-fluid -->
-						</div>
-						<!-- /.item -->
-
-						<div class="item" style="background-image: url('template/assets/images/advertisement/1.jpg');">
-
-						</div>
-						<!-- /.item -->
-
-						<div class="item bg-color">
-							<div class="container-fluid">
-								<div class="caption vertical-top text-left">
-									<div class="big-text">
-										Save
-										<span class="big">50%</span>
-									</div>
-
-
-									<div class="excerpt fadeInDown-2">
-										on selected items
-									</div>
-								</div>
-								<!-- /.caption -->
-							</div>
-							<!-- /.container-fluid -->
-						</div>
-						<!-- /.item -->
-
-					</div>
-					<!-- /.owl-carousel -->
-				</div>
-
-				<!-- ============================================== COLOR: END ============================================== -->
-
-
-			</div>
-			<!-- /.sidemenu-holder -->
-			<!-- ============================================== SIDEBAR : END ============================================== -->
-
-			<!-- ============================================== CONTENT ============================================== -->
-			<div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
-				<!-- ========================================== SECTION – HERO ========================================= -->
-
-				<div id="hero">
-					<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-
-						<div class="item" style="background-image: url(template/assets/images/sliders/01.jpg);">
-							<div class="container-fluid">
-								<div class="caption bg-color vertical-center text-left">
-									<div class="big-text fadeInDown-1">
-										The new
-										<span class="highlight">imac</span> for you
-									</div>
-
-									<div class="excerpt fadeInDown-2 hidden-xs">
-
-										<span>21.5-Inch Now Starting At $1099 </span>
-										<span>27-Inch Starting At $1799</span>
-									</div>
-									<div class="button-holder fadeInDown-3">
-										<a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a>
-									</div>
-								</div>
-								<!-- /.caption -->
-							</div>
-							<!-- /.container-fluid -->
-						</div>
-						<!-- /.item -->
-
-						<div class="item" style="background-image: url(template/assets/images/sliders/01.jpg);">
-							<div class="container-fluid">
-								<div class="caption bg-color vertical-center text-left">
-									<div class="big-text fadeInDown-1">
-										The new
-										<span class="highlight">imac</span> for you
-									</div>
-
-									<div class="excerpt fadeInDown-2 hidden-xs">
-
-										<span>21.5-Inch Now Starting At $1099 </span>
-										<span>27-Inch Starting At $1799</span>
-									</div>
-									<div class="button-holder fadeInDown-3">
-										<a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a>
-									</div>
-								</div>
-								<!-- /.caption -->
-							</div>
-							<!-- /.container-fluid -->
-						</div>
-						<!-- /.item -->
-
-
-
-					</div>
-					<!-- /.owl-carousel -->
-				</div>
-				<div id="product-tabs-slider" class="scroll-tabs outer-top-vs wow fadeInUp">
-					<div class="more-info-tab clearfix ">
-						<h3 class="new-product-title pull-left">Sản phẩm mới</h3>
-						<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
-							<li>
-							<a data-transition-type="backSlide" href="#apple" data-toggle="tab">Hiện có {{count($new_food)}} sản phẩm</a>
-							</li>
-						</ul>
-						<!-- /.nav-tabs -->
-					</div>
-
-					<div class="tab-content outer-top-xs">
-						<div class="tab-pane in active" id="all">
-							<div class="product-slider">
-								<div class="owl-carousel home-owl-carousel custom-carousel owl-theme" data-item="4">
-								@foreach($new_food as $new)
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-													<a href="{{route('detail',$new->id)}}">
-															<img src="template/assets/images/hinh_mon_an/{{$new->image}}"  alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-												<div class="product-info text-left">
-													<h3 class="name">
-													<a href="detail.html">{{$new->name}}</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														@if($new->promotion_price==0)
-															<span class="price">
-																{{$new->price}}
-															</span>
-														@else
-															<span class="price">
-																{{$new->price}}
-															</span>
-															<span class="price-before-discount">{{$new->promotion_price}}</span>
-														@endif
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-								@endforeach	
-								</div>
-								<!-- /.home-owl-carousel -->
-							</div>
-							<!-- /.product-slider -->
-						</div>
-						<!-- /.tab-pane -->
-
-						<div class="tab-pane" id="smartphone">
-							<div class="product-slider">
-								<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/3.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Apple Iphone 5s 32GB</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/4.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">LG Smart Phone LP68</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/6.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Nokia Lumia 520</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/1.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Sony Ericson Vaga</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-								</div>
-								<!-- /.home-owl-carousel -->
-							</div>
-							<!-- /.product-slider -->
-						</div>
-						<!-- /.tab-pane -->
-
-						<div class="tab-pane" id="laptop">
-							<div class="product-slider">
-								<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/6.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Nokia Lumia 520</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/4.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">LG Smart Phone LP68</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/1.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Sony Ericson Vaga</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/3.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Apple Iphone 5s 32GB</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-								</div>
-								<!-- /.home-owl-carousel -->
-							</div>
-							<!-- /.product-slider -->
-						</div>
-						<!-- /.tab-pane -->
-
-						<div class="tab-pane" id="apple">
-							<div class="product-slider">
-								<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/3.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Apple Iphone 5s 32GB</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/1.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Sony Ericson Vaga</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/4.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag sale">
-														<span>sale</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">LG Smart Phone LP68</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/6.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Nokia Lumia 520</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag new">
-														<span>new</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-
-									<div class="item item-carousel">
-										<div class="products">
-
-											<div class="product">
-												<div class="product-image">
-													<div class="image">
-														<a href="detail.html">
-															<img src="template/assets/images/blank.gif" data-echo="template/assets/images/products/2.jpg" alt="">
-														</a>
-													</div>
-													<!-- /.image -->
-
-													<div class="tag hot">
-														<span>hot</span>
-													</div>
-												</div>
-												<!-- /.product-image -->
-
-
-												<div class="product-info text-left">
-													<h3 class="name">
-														<a href="detail.html">Samsung Galaxy S4</a>
-													</h3>
-													<div class="rating rateit-small"></div>
-													<div class="description"></div>
-
-													<div class="product-price">
-														<span class="price">
-															$650.99 </span>
-														<span class="price-before-discount">$ 800</span>
-
-													</div>
-													<!-- /.product-price -->
-
-												</div>
-												<!-- /.product-info -->
-												<div class="cart clearfix animate-effect">
-													<div class="action">
-														<ul class="list-unstyled">
-															<li class="add-cart-button btn-group">
-																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																	<i class="fa fa-shopping-cart"></i>
-																</button>
-																<button class="btn btn-primary" type="button">Add to cart</button>
-
-															</li>
-
-															<li class="lnk wishlist">
-																<a class="add-to-cart" href="detail.html" title="Wishlist">
-																	<i class="icon fa fa-heart"></i>
-																</a>
-															</li>
-
-															<li class="lnk">
-																<a class="add-to-cart" href="detail.html" title="Compare">
-																	<i class="fa fa-retweet"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<!-- /.action -->
-												</div>
-												<!-- /.cart -->
-											</div>
-											<!-- /.product -->
-
-										</div>
-										<!-- /.products -->
-									</div>
-									<!-- /.item -->
-								</div>
-								<!-- /.home-owl-carousel -->
-							</div>
-							<!-- /.product-slider -->
-						</div>
-						<!-- /.tab-pane -->
-
-					</div>
-					<!-- /.tab-content -->
-				</div>	
-				<!-- /.scroll-tabs -->
-				<div class="sidebar-widget wow fadeInUp outer-bottom-vs">
-					<h3 class="section-title">Best seller</h3>
-					<div class="sidebar-widget-body outer-top-xs">
-						@foreach($allFood as $all)
-							<div class="item">
-								<div class="products best-product">
-									<div class="product col-md-6">
-										<div class="product-micro">
-											<div class="row product-micro-row">
-												<div class="col col-xs-6">
-													<div class="product-image">
-														<div class="image">
-														<a href="{{route('detail',$all->id)}}">
-															<img  src="template/assets/images/hinh_mon_an/{{$all->image}}" alt="">
-																<div class="zoom-overlay"></div>
-															</a>
-														</div>
-														<!-- /.image -->
-													</div>
-													<!-- /.product-image -->
-												</div>
-												<!-- /.col -->
-												<div class="col col-xs-6">
-													<div class="product-info">
-														<h3 class="name">
-														<a href="#">{{$all->name}}</a>
-														</h3>
-														<div class="rating rateit-small"></div>
-														<div class="product-price">
-															<span class="price">
-																{{$all->price}}
-															</span>
-	
-														</div>
-														<!-- /.product-price -->
-														<div class="action">
-															<a href="#" class="lnk btn btn-primary">Add To Cart</a>
-														</div>
-													</div>
-												</div>
-												<!-- /.col -->
-											</div>
-											<!-- /.product-micro-row -->
-										</div>
-										<!-- /.product-micro -->
-									</div>
-								</div>
-							</div>
-						@endforeach
-					</div>
-					<div class="row">
-						{{$allFood->links()}}
-					</div>
-					<!-- /.sidebar-widget-body -->
-				</div>
-				<!-- /.sidebar-widget -->
-
-			</div>
-			<!-- /.homebanner-holder -->
-			<!-- ============================================== CONTENT : END ============================================== -->
-		</div>
-		<!-- /.row -->
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-	</div>
-	<!-- /.container -->
 </div>
-<script>
-	// jQuery(document).ready(function(){
-	// 	var page = $(this).click('page-item');
-	// 	console.log(page);
-	// 	if(page!=0){
-	// 		var body = $("html, body");
-	// 		body.stop().animate({scrollTop:2000});
-	// 	}
-	// })
-</script>
+<!-- /.body-content -->
 @endsection
 @section('title','Trang Chủ')

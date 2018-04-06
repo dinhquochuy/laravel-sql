@@ -13,7 +13,7 @@ class PageController extends Controller{
         $new_food = Foods::where('today',1)->get();
         //$allFood = Foods::all()->paginate(1);
         // dd($allFood);
-        $allFood = DB::table('foods')->paginate(8);
+        $allFood = DB::table('foods')->paginate(9);
         return view('pages.trangchu',compact('new_food','allFood'));
     }
     function getRegister(){
@@ -78,19 +78,22 @@ class PageController extends Controller{
             'success'=>"Đăng xuất thành công"
         ]);
     }
-    public function getLoaisp($type){
-        $sp_theoloai = Foods::all();
-        return view();
-    }
     function getSearch(Request $req){
         $food = DB::table('foods')->where('name','like','%'.$req->key.'%')->orWhere('price',$req->key)->get();
         return view('pages.search',compact('food'));
+    }
+    public function getTypeFood($type){
+        $sp_theoloai = Foods::where('id_type',$type)->get();
+        return view('pages.typefood',compact('sp_theoloai'));
     }
     function getDetailFood($id){
         $food = Foods::where('id',$id)->first();
         // dd($food);
         $sp_tuongtu = Foods::all();
         return view('pages.detail',compact('food','sp_tuongtu'));
+    }
+    function getShoppingCart(){
+        return view('pages.shopping-cart',compact());
     }
  }
 ?>

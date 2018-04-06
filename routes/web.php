@@ -39,7 +39,15 @@ Route::get('search',[
     'as'=>'search',
     'uses'=>'PageController@getSearch'
 ]);
-Route::get('{id}',[
+Route::get('chi-tiet-san-pham{id}',[
     'as'=>'detail',
     'uses'=>'PageController@getDetailFood'
+]);
+Route::get('typefood',[
+    'as'=>'typefood',
+    'uses'=>'PageController@getTypeFood'
+]); 
+Route::get('shoppingcart',[
+    'as'=>'shoppingcart',
+    'uses'=>'PageController@getShoppingCart'
 ]);

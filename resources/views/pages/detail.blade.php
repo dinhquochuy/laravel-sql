@@ -542,11 +542,11 @@
 											<div class="price-box">
 													@if($food->promotion_price==0)
 													<span class="price">
-														{{$food->price}}
+														{{number_format($food->price)}}
 													</span>
 												@else
 													<span class="price">
-														{{$food->price}}
+														{{number_format($food->price)}}
 													</span>
 													<span class="price-before-discount">{{$food->promotion_price}}</span>
 												@endif
@@ -910,11 +910,11 @@
 												<div class="product-price">
 													@if($sp->promotion_price==0)
 														<span class="price">
-															{{$sp->price}}
+															{{number_format($sp->price)}}
 														</span>
 													@else
 														<span class="price">
-															{{$sp->price}}
+															{{number_format($sp->price)}}
 														</span>
 														<span class="price-before-discount">{{$sp->promotion_price}}</span>
 													@endif
