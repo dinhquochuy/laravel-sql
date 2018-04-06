@@ -501,7 +501,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
                                                             <a href="{{route('detail',$all->id)}}">
-                                                                <img src="template/assets/images/hinh_mon_an/{{$all->image}}" alt="">
+                                                                <img src="template/assets/images/hinh_mon_an/{{$all->image}}" alt="" width="250px" height="200px"> 
                                                             </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -543,10 +543,8 @@
                                                                     <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
                                                                         <i class="fa fa-shopping-cart"></i>
                                                                     </button>
-                                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
+                                                                    <a href="{{route('themgiohang',$all->id)}}">Add to cart</a>
                                                                 </li>
-
                                                                 <li class="lnk wishlist">
                                                                     <a class="add-to-cart" href="detail.html" title="Wishlist">
                                                                         <i class="icon fa fa-heart"></i>
@@ -624,7 +622,7 @@
                                                                             <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
                                                                                 <i class="fa fa-shopping-cart"></i>
                                                                             </button>
-                                                                            <button class="btn btn-primary" type="button">Add to cart</button>
+                                                                            <a href="{{route('themgiohang',$all->id)}}"></a>Add to cart
 
                                                                         </li>
 

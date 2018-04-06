@@ -503,7 +503,7 @@
 								<div id="owl-single-product">
 									<div class="single-product-gallery-item" id="slide1">
 										<a data-lightbox="image-1" data-title="Gallery" href="assets/images/single-product/1.jpg">
-											<img class="img-responsive" alt="" src="template/assets/images/hinh_mon_an/{{$food->image}}" />
+											<img class="img-responsive" alt="" src="{{URL::asset('template/assets/images/hinh_mon_an/'.$food->image)}}"  width="100%"/>
 										</a>
 									</div>
 									<!-- /.single-product-gallery-item -->
@@ -600,7 +600,7 @@
 										</div>
 
 										<div class="col-sm-7">
-											<a href="#" class="btn btn-primary">
+											<a href="{{route('themgiohang',$food->id)}}" class="btn btn-primary">
 												<i class="fa fa-shopping-cart inner-right-vs"></i> ADD TO CART</a>
 										</div>
 
@@ -888,7 +888,7 @@
 											<div class="product-image">
 												<div class="image">
 													<a href="{{route('detail',$sp->id)}}">
-														<img src="template/assets/images/hinh_mon_an/{{$sp->image}}" alt="">
+														<img src="{{URL::asset('template/assets/images/hinh_mon_an/'.$sp->image)}}" alt="" width="200px" height="150px">
 													</a>
 												</div>
 												<!-- /.image -->
@@ -927,11 +927,12 @@
 												<div class="action">
 													<ul class="list-unstyled">
 														<li class="add-cart-button btn-group">
-															<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-																<i class="fa fa-shopping-cart"></i>
-															</button>
-															<button class="btn btn-primary" type="button">Add to cart</button>
-
+															<a href="{{route('themgiohang',$sp->id)}}">
+																<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+																	<i class="fa fa-shopping-cart"></i>
+																</button>
+																<button class="btn btn-primary" type="button">Add to cart</button>
+															</a>
 														</li>
 
 														<li class="lnk wishlist">

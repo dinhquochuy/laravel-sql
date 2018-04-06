@@ -3,14 +3,16 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
+use App\FoodType;
+use Session;
+use App\Cart;
 class AppServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
      *
      * @return void
-     */
+     */ 
     public function boot()
     {
         view()->composer(['header','page.shopping-cart'],function($view){

@@ -39,7 +39,7 @@ Route::get('search',[
     'as'=>'search',
     'uses'=>'PageController@getSearch'
 ]);
-Route::get('chi-tiet-san-pham{id}',[
+Route::get('chi-tiet-san-pham/{id}',[
     'as'=>'detail',
     'uses'=>'PageController@getDetailFood'
 ]);
@@ -47,7 +47,19 @@ Route::get('typefood',[
     'as'=>'typefood',
     'uses'=>'PageController@getTypeFood'
 ]); 
-Route::get('shoppingcart',[
-    'as'=>'shoppingcart',
+Route::get('add-to-cart/{id}',[
+    'as'=>'themgiohang',
     'uses'=>'PageController@getShoppingCart'
+]);
+Route::get('del-cart/{id}',[
+	'as'=>'xoagiohang',
+	'uses'=>'PageController@getDelItemCart'
+]);
+Route::get('dat-hang',[
+	'as'=>'dathang',
+	'uses'=>'PageController@getCheckout'
+]);
+Route::get('info',[
+    'as'=>'info',
+    'uses'=>'PageController@getInfo'
 ]);

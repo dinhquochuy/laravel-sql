@@ -10,14 +10,23 @@
 			<div class="header-top-inner">
 				<div class="cnt-account">
 					<ul class="list-unstyled">
+					@if(Auth::check())
 						<li>
-							<a href="{{route('dang_ki')}}">
-								<i class="icon fa fa-user"></i>Đăng Kí</a>
+							<a href="">Chào bạn {{Auth::user()->fullname}}</a>
+						</li>
+						<li>
+							<a href="{{route('logout')}}">
+								<i class="icon fa fa-user"></i>Đăng Xuất</a>
+						</li>
+					@else	
+						<li>
+							<a href="{{route('dang_ki')}}">Đăng kí</a>
 						</li>
 						<li>
 							<a href="{{route('dang_nhap')}}">
-								<i class="icon fa fa-sign-in"></i>Login</a>
+								<i class="icon fa fa-sign-in"></i>Đăng nhập</a>
 						</li>
+					@endif	
 					</ul>
 				</div>
 				<!-- /.cnt-account -->
@@ -101,64 +110,62 @@
 						<a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
 							<div class="items-cart-inner">
 								<div class="total-price-basket">
-									<span class="lbl">cart -</span>
-									<span class="total-price">
-										<span class="sign">$</span>
-										<span class="value">600.00</span>
-									</span>
+									<span class="lbl">Giỏ Hàng</span> 
 								</div>
 								<div class="basket">
 									<i class="glyphicon glyphicon-shopping-cart"></i>
 								</div>
 								<div class="basket-item-count">
-									<span class="count">2</span>
+								<span class="count">
+									@if(Session::has('cart')){{Session('cart')->totalQty}}@else 0 @endif
+								</span>
 								</div>
 
 							</div>
 						</a>
 						<ul class="dropdown-menu">
 							<li>
-								<div class="cart-item product-summary">
-									<div class="row">
-										<div class="col-xs-4">
-											<div class="image">
-												<a href="detail.html">
-													<img src="template/assets/images/cart.jpg" alt="">
-												</a>
+								@if(Session::has('cart'))
+									@foreach($product_cart as $food)
+										<div class="cart-item product-summary">
+											<div class="row">
+												<div class="col-xs-4">
+													<div class="image">
+														<a href="{{route('detail',$food['item']['id'])}}">
+															<img src="template/assets/images/{{$food['item']['image']}}" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="col-xs-7">
+
+													<h3 class="name">
+														<a href="index.php?page-detail">{{$food['item']['name']}}</a>
+													</h3>
+													<div class="price">{{$food['qty']}}<div>{{$food['item']['price']}}</div></div>
+												</div>
+												<div class="col-xs-1 action">
+													<a href="{{route('xoagiohang',$food['item']['id'])}}">
+														<i class="fa fa-trash"></i>
+													</a>
+												</div>
 											</div>
 										</div>
-										<div class="col-xs-7">
-
-											<h3 class="name">
-												<a href="index.php?page-detail">Simple Product</a>
-											</h3>
-											<div class="price">$600.00</div>
-										</div>
-										<div class="col-xs-1 action">
-											<a href="#">
-												<i class="fa fa-trash"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-								<!-- /.cart-item -->
-								<div class="clearfix"></div>
-								<hr>
-
-								<div class="clearfix cart-total">
-									<div class="pull-right">
-
-										<span class="text">Sub Total :</span>
-										<span class='price'>$600.00</span>
-
-									</div>
+									@endforeach	
+									<!-- /.cart-item -->
 									<div class="clearfix"></div>
+									<hr>
 
-									<a href="checkout.html" class="btn btn-upper btn-primary btn-block m-t-20">Checkout</a>
-								</div>
-								<!-- /.cart-total-->
+									<div class="clearfix cart-total">
+										<div class="pull-right">
+											<span class="text">Sub Total :</span>
+											<span class='price'>@if(Session::has('cart')){{number_format($totalPrice)}} @else 0 @endif đồng</span>
+										</div>
+										<div class="clearfix"></div>	
 
-
+									<a href="{{route('dathang',$food['item']['id'])}}" class="btn btn-upper btn-primary btn-block m-t-20">Đặt Hàng</a>
+									</div>
+									<!-- /.cart-total-->
+								@endif
 							</li>
 						</ul>
 						<!-- /.dropdown-menu-->

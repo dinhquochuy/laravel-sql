@@ -7,13 +7,15 @@ use Hash;
 use App\User;
 use App\Foods;
 use DB;
+use App\Cart;
+use Session;
 use Illuminate\Pagination\Paginator;
 class PageController extends Controller{
     public function getIndex(){
         $new_food = Foods::where('today',1)->get();
         //$allFood = Foods::all()->paginate(1);
         // dd($allFood);
-        $allFood = DB::table('foods')->paginate(9);
+        $allFood = DB::table('foods')->paginate(12);
         return view('pages.trangchu',compact('new_food','allFood'));
     }
     function getRegister(){
@@ -92,8 +94,34 @@ class PageController extends Controller{
         $sp_tuongtu = Foods::all();
         return view('pages.detail',compact('food','sp_tuongtu'));
     }
-    function getShoppingCart(){
-        return view('pages.shopping-cart',compact());
+    function getShoppingCart(Request $req,$id){
+        $product = Foods::find($id);
+        $oldCart = Session('cart') ? Session::get('cart') :null;
+        $cart = new Cart($oldCart);
+        $cart->add($product, $id);
+        $req->session()->put('cart',$cart);
+        return redirect()->back();
+        // return view('pages.shoppingcart');
+    }
+    
+    public function getDelItemCart($id){
+        $oldCart = Session::has('cart')?Session::get('cart'):null;
+        $cart = new Cart($oldCart);
+        $cart->removeItem($id);
+        if(count($cart->items)>0){
+            Session::put('cart',$cart);
+        }
+        else{
+            Session::forget('cart');
+        }
+        return redirect()->back();
+    }
+
+    public function getCheckout(){
+        return view('pages.shoppingcart');
+    }
+    function getInfo(){
+        return view('pages.info');
     }
  }
 ?>
