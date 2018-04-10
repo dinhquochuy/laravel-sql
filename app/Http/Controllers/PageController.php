@@ -6,6 +6,7 @@ use Auth;
 use Hash;
 use App\User;
 use App\Foods;
+use App\FoodType;
 use DB;
 use App\Cart;
 use Session;
@@ -63,23 +64,62 @@ class PageController extends Controller{
     function getLogin(){
         return view('pages.login');
     }
+    // function postLogin(Request $req){
+    //     // $user = User::where('email', $req->email)->first();
+    //     // if($user) {
+    //     //     if (\Hash::check($req->password, $user->password)) {
+    //     //          return redirect()->route('trang_chu');
+    //     //     }
+    //     //     else{
+    //     //         return redirect()->route('dang_nhap')->with([
+    //     //             'error'=>'Sai thông tin đăng nhập'
+    //     //         ]); 
+    //     //     }
+    //     // }
+    //     // Auth::attemp([
+    //     //     'email'=>$req->email,
+    //     //     'password'=>$req->password
+    //     // ]);
+    //     // if(Auth::check())
+    //     //     return redirect()->route('trangchu');
+    //     // return redirect()->route('dang_nhap')->with([
+    //     //     'error'=>'Sai thông tin đăng nhập'
+    //     // ]);    
+    // }
     function postLogin(Request $req){
-        Auth::attemp([
-            'email'=>$req->email,
-            'password'=>$red->password
-        ]);
-        if(Auth::check())
-            return redirect()->route('trangchu');
-        return redirect()->route('dang_nhap')-with([
-            'error'=>'Sai thông tin đăng nhập'
-        ]);    
+        $check =[
+            'email'=>'required|max:50|email',
+            'password' => 'required|min:6|max:20',
+        ];
+        $mess =[
+            'password.min' =>'Password it nhất :min kí tự',
+        ];
+        $validator = Validator::make($req->all(),$check,$mess);
+        if($validator->fails()){
+            return redirect()
+                ->route('dang_nhap')
+                ->withErrors($validator)
+                ->withInput();
+
+        }else{
+
+            if(Auth::attempt(['email'=>$req->email,'password'=>$req->password ])){
+                return redirect()->route('trang_chu');
+            }else{ 
+                return redirect()->back()-with(['error'=>'Sai thông tin đăng nhập']);
+            }
+        } 
     }
-    function getLogout(){
-        Auth:logout();
-        return redirect()->route('dang_nhap')->with([
-            'success'=>"Đăng xuất thành công"
-        ]);
+    public function getLogout(){
+        Auth::logout();
+        return redirect()->route('trang_chu');
     }
+    // function getLogout(){
+    //     Auth::logout();
+    //     return redirect()->route('dang_nhap')->with([
+    //         'success'=>"Đăng xuất thành công"
+    //     ]);
+    // }
     function getSearch(Request $req){
         $food = DB::table('foods')->where('name','like','%'.$req->key.'%')->orWhere('price',$req->key)->get();
         return view('pages.search',compact('food'));
@@ -94,7 +134,17 @@ class PageController extends Controller{
     function getDetailFood($id){
         $food = Foods::where('id',$id)->first();
         // dd($food);
-        $sp_tuongtu = Foods::all();
+        $sp_tuongtu =FoodType::with('foods')->get();
+        foreach($sp_tuongtu as $type){
+             echo $type->id;
+             echo $type->name;
+             echo '<br>';
+            foreach($type->foods as $food){
+               echo $food->name;
+            }
+        }
+        // $sp_tuongtu = Foods::where('id_type',$id)->get();
+        dd($sp_tuongtu);    
         return view('pages.detail',compact('food','sp_tuongtu'));
     }
     function getShoppingCart(Request $req,$id){
@@ -104,6 +154,7 @@ class PageController extends Controller{
         $cart->add($product, $id);
         $req->session()->put('cart',$cart);
         return redirect()->back();
+        //return view('pages.shoppingcart',compact('ds'));
         // return view('pages.shoppingcart');
     }
     

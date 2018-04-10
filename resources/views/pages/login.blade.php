@@ -32,19 +32,19 @@
                         {{Session::get('success')}}
                     </div>
                     @endif
-                    <form class="register-form outer-top-xs" role="form">
+                    <form class="register-form outer-top-xs" role="form" action="{{route('dang_nhap')}}" method="post">
                         @csrf
                         <div class="form-group">
                             <label class="info-title" for="exampleInputEmail1">Email Address
                                 <span>*</span>
                             </label>
-                            <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                            <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="email" required>
                         </div>
                         <div class="form-group">
                             <label class="info-title" for="exampleInputPassword1">Password
                                 <span>*</span>
                             </label>
-                            <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1">
+                            <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1" name="password" required>
                         </div>
                         <div class="radio outer-xs">
                             <label>

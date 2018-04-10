@@ -1952,7 +1952,7 @@
 												<div class="product-image">
 													<div class="image">
 														<a href="detail.html">
-															<img src="template/assets/images/hinh_mon_an/{{$new->image}}"  alt="">
+															<img src="template/assets/images/hinh_mon_an/{{$new->image}}"  alt="" width="200px" height="150px">
 														</a>
 													</div>
 													<!-- /.image -->

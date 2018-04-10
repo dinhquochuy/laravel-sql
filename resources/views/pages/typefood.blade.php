@@ -2021,7 +2021,7 @@
                                                     <div class="product-image">
                                                         <div class="image">
                                                             <a href="detail.html">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/products/6.jpg" alt="">
+                                                                <img src="{{asset('template/assets/images/hinh_mon_an'.$loai->image)}}" alt="">
                                                             </a>
                                                         </div>
                                                         <!-- /.image -->
@@ -2035,7 +2035,7 @@
 
                                                     <div class="product-info text-left">
                                                         <h3 class="name">
-                                                            <a href="detail.html">Nokia Lumia 520</a>
+                                                        <a href="detail.html">{{$loai->name}}</a>
                                                         </h3>
                                                         <div class="rating rateit-small"></div>
                                                         <div class="description"></div>

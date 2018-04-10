@@ -32,7 +32,7 @@ Route::post('login',[
     'uses'=>'PageController@postLogin'
 ]);
 Route::get('logout',[
-    'as'=>'dangxuat',
+    'as'=>'Logout',
     'uses' => 'PageController@getLogout'
 ]);
 Route::get('search',[
